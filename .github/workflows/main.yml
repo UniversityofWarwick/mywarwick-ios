@@ -1,0 +1,16 @@
+on: [push, pull_request]
+name: Build iOS
+jobs:
+  test:
+    name: Build
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Set up environment
+        run: |
+          sudo xcode-select --switch /Applications/Xcode_10.1.app/Contents/Developer
+          pod install
+      - name: Set up environment
+        run: |
+          xcodebuild -workspace MyWarwick.xcworkspace -scheme MyWarwick -sdk iphoneos -destination generic/platform=iOS CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
