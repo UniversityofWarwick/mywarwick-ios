@@ -3,7 +3,7 @@ My Warwick for iOS
 
 ![Build Status](https://github.com/UniversityOfWarwick/mywarwick-ios/workflows/Build%20iOS/badge.svg)
 
-<img src="screenshot.png" width=800>
+<img src="screenshot.png" width=400>
 
 This is My Warwick for iOS. My Warwick is the University of Warwick's mobile application for students.
 
