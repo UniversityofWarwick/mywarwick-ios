@@ -1,6 +1,10 @@
 My Warwick for iOS
 ==================
 
+![Build Status](https://github.com/UniversityOfWarwick/mywarwick-ios/workflows/Build%20iOS/badge.svg)
+
+<img src="screenshot.png" width=800>
+
 This is My Warwick for iOS. My Warwick is the University of Warwick's mobile application for students.
 
 > My Warwick brings together information about many aspects of student life at Warwick, pulling data out of the systems used for timetabling, coursework, learning content, news and events, etc, and putting everything you need to know into a single place. It can be used to view your teaching timetable, keep on top of your coursework deadlines, check your emails and calendar, get bus times and traffic alerts, see a weather forecast, and more.
