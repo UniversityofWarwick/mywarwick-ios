@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return UIInterfaceOrientationMask.all
     }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         
@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         appearance.pageIndicatorTintColor = UIColor(red: 91 / 255, green: 48 / 255, blue: 105 / 255, alpha: 1 / 4)
         appearance.currentPageIndicatorTintColor = UIColor(red: 91 / 255, green: 48 / 255, blue: 105 / 255, alpha: 1)
         
-        let remoteNotification = launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] as? NSDictionary
+        let remoteNotification = launchOptions?[UIApplication.LaunchOptionsKey.remoteNotification] as? NSDictionary
 
     
         if remoteNotification != nil {

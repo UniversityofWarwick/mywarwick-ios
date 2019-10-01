@@ -188,7 +188,7 @@ class ViewController: UIViewController, UITabBarDelegate, WKNavigationDelegate, 
             Helper.makeTransientNotificationAlert(title: title, body: body, viewController: self)
         }
 
-        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIApplicationDidBecomeActive, object: nil, queue: OperationQueue.main) { _ -> Void in
+        NotificationCenter.default.addObserver(forName: UIApplication.didBecomeActiveNotification, object: nil, queue: OperationQueue.main) { _ -> Void in
             self.invoker.invoke("onApplicationDidBecomeActive()")
         }
 
@@ -198,10 +198,10 @@ class ViewController: UIViewController, UITabBarDelegate, WKNavigationDelegate, 
                 self.invoker.invoke("registerForAPNs('\(deviceToken)')")
             }
         }
-        NotificationCenter.default.addObserver(self, selector: #selector(self.accessibilitySettingChanges), name: NSNotification.Name.UIContentSizeCategoryDidChange, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.accessibilitySettingChanges), name: UIContentSizeCategory.didChangeNotification, object: nil)
     }
 
-    func accessibilitySettingChanges() {
+    @objc func accessibilitySettingChanges() {
         self.loadWebView()
     }
 
@@ -447,8 +447,8 @@ class ViewController: UIViewController, UITabBarDelegate, WKNavigationDelegate, 
                     } else {
                         message = ""
                     }
-                    let alert = UIAlertController(title: "App not installed", message: message, preferredStyle: UIAlertControllerStyle.alert)
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    let alert = UIAlertController(title: "App not installed", message: message, preferredStyle: UIAlertController.Style.alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
             }

@@ -29,11 +29,11 @@ class EventFetcher: NSObject {
         }
 
         if let dateString = item["start"] as? String, let startDate = isoDateFormatter.date(from: dateString) {
-            event.start = startDate as NSDate
+            event.start = startDate
         }
 
         if let dateString = item["end"] as? String, let endDate = isoDateFormatter.date(from: dateString) {
-            event.end = endDate as NSDate
+            event.end = endDate
         }
     }
 
