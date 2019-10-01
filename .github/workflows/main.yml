@@ -9,7 +9,6 @@ jobs:
         uses: actions/checkout@master
       - name: Set up environment
         run: |
-          sudo xcode-select --switch /Applications/Xcode_10.1.app/Contents/Developer
           pod install
       - name: Set up environment
         run: |
