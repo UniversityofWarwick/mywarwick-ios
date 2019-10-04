@@ -36,7 +36,7 @@ class TourViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                 NSLayoutConstraint(item: finishButton, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1, constant: 0)
         ])
 
-        view.bringSubview(toFront: finishButton)
+        view.bringSubviewToFront(finishButton)
 
         pageControl.translatesAutoresizingMaskIntoConstraints = false
         pageControl.addTarget(self, action: #selector(changePage), for: .valueChanged)
@@ -54,25 +54,25 @@ class TourViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                 NSLayoutConstraint(item: pageControl, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 24)
         ])
 
-        view.bringSubview(toFront: pageControl)
+        view.bringSubviewToFront(pageControl)
 
         if let firstPage = tourPages.first {
             setViewControllers([firstPage], direction: .forward, animated: true, completion: nil)
         }
     }
 
-    func changePage() {
+    @objc func changePage() {
         let previousPage: Int = tourPages.index(of: viewControllers!.first!)!
 
         let something = previousPage < pageControl.currentPage
 
         let vc = tourPages[pageControl.currentPage]
-        let direction = something ? UIPageViewControllerNavigationDirection.forward : UIPageViewControllerNavigationDirection.reverse
+        let direction = something ? UIPageViewController.NavigationDirection.forward : UIPageViewController.NavigationDirection.reverse
 
         setViewControllers([vc], direction: direction, animated: true, completion: nil)
     }
 
-    func finish() {
+    @objc func finish() {
         if let initialViewController = presentingViewController as? InitialViewController {
             initialViewController.finishTour()
         } else {

@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4dZ-fE-UYo">
-    <device id="retina5_9" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4dZ-fE-UYo">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wJ5-Ve-jhj">
-                                <rect key="frame" x="0.0" y="44" width="375" height="768"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="666"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWW-yM-le3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bah-MO-y8k">
-                                <rect key="frame" x="0.0" y="728" width="375" height="84"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <tabBarItem title="Me" image="Me" selectedImage="Me Selected" id="FYK-qj-4EQ"/>
@@ -51,7 +45,7 @@
                             <constraint firstItem="wJ5-Ve-jhj" firstAttribute="trailing" secondItem="VRa-SI-7wL" secondAttribute="trailing" id="3mS-LW-rM6"/>
                             <constraint firstItem="Bah-MO-y8k" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Cc4-pR-xVi"/>
                             <constraint firstItem="dWW-yM-le3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DOA-9m-CIh"/>
-                            <constraint firstItem="wJ5-Ve-jhj" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="IVZ-zF-5yw"/>
+                            <constraint firstItem="wJ5-Ve-jhj" firstAttribute="bottom" secondItem="Bah-MO-y8k" secondAttribute="top" id="IVZ-zF-5yw"/>
                             <constraint firstAttribute="bottom" secondItem="Bah-MO-y8k" secondAttribute="bottom" identifier="tabbar bottom constraint" id="JiH-eO-cQv"/>
                             <constraint firstItem="wJ5-Ve-jhj" firstAttribute="leading" secondItem="VRa-SI-7wL" secondAttribute="leading" id="O5P-MW-zF2"/>
                             <constraint firstItem="Bah-MO-y8k" firstAttribute="top" secondItem="VRa-SI-7wL" secondAttribute="bottom" constant="-50" id="gCd-nT-s1v"/>
@@ -78,7 +72,7 @@
             <objects>
                 <viewController id="4dZ-fE-UYo" customClass="InitialViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A7b-j5-URz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="rvN-4G-4NU"/>
@@ -101,24 +95,24 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide1" id="axR-Ga-wox" sceneMemberID="viewController">
                     <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="7M2-96-Gck">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKe-di-OTy">
-                                <rect key="frame" x="16" y="609.66666666666663" width="343" height="108.33333333333337"/>
+                                <rect key="frame" x="16" y="567.66666666666663" width="382" height="108.33333333333337"/>
                                 <string key="text">My Warwick is your window into lots of different activities at Warwick. Here you can get coursework reminders, see traffic alerts, use our interactive map, search for people, web pages and much more. Take a tour...</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Welcome to My Warwick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-qS-fjF">
-                                <rect key="frame" x="50" y="568.33333333333337" width="274.33333333333331" height="31.333333333333371"/>
+                                <rect key="frame" x="50" y="526.33333333333337" width="313.33333333333331" height="31.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="AppIconLarge" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-OJ-ibq">
-                                <rect key="frame" x="40" y="104" width="295" height="295"/>
+                                <rect key="frame" x="40" y="80" width="334" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="295" id="8qM-mc-JyG"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="295" id="uLr-wW-zVd"/>
@@ -150,7 +144,7 @@
             <objects>
                 <viewController storyboardIdentifier="accountSettingVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="elA-kl-J9o" customClass="AccountSettingViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XUS-OM-WRt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5XP-n1-4xp"/>
@@ -165,11 +159,11 @@
             <objects>
                 <viewController storyboardIdentifier="CannotConnect" id="xf1-Ge-Lpr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ka5-WQ-n7N">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="My Warwick needs to download additional content before it can be used offline. Please connect to the Internet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MN-0c-TX9">
-                                <rect key="frame" x="36" y="395.66666666666669" width="303" height="59.666666666666686"/>
+                                <rect key="frame" x="40" y="357.66666666666669" width="334" height="59.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="9jM-ES-5o2"/>
                                 </constraints>
@@ -178,7 +172,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cannot Connect to My Warwick" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEn-EK-LYJ">
-                                <rect key="frame" x="56" y="324.33333333333331" width="263" height="63.333333333333314"/>
+                                <rect key="frame" x="60" y="286.33333333333331" width="294" height="63.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="pdM-Zm-PX5"/>
                                 </constraints>
@@ -218,7 +212,7 @@
             <objects>
                 <viewController storyboardIdentifier="photosVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Noh-ug-WcH" customClass="PhotosViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OkH-qb-WCW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="4Vf-Q4-JqP"/>
@@ -233,7 +227,7 @@
             <objects>
                 <viewController storyboardIdentifier="signinVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BjY-Tm-mMZ" customClass="SigninViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ebf-N9-Ly0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ERz-hI-zkT"/>
@@ -248,18 +242,18 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide2" id="RWL-7x-yeV" sceneMemberID="viewController">
                     <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="pda-Hb-QhT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfP-vx-JaA">
-                                <rect key="frame" x="16" y="651.66666666666663" width="343" height="86.333333333333371"/>
+                                <rect key="frame" x="20" y="609.66666666666663" width="374" height="86.333333333333371"/>
                                 <string key="text">Tiles on your 'Me' screen give you a quick summary of things that are relevant to you. You can resize and rearrange the tiles to suit your needs.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vqa-4K-Vj7">
-                                <rect key="frame" x="117.33333333333333" y="598.66666666666663" width="140.66666666666669" height="33"/>
+                                <rect key="frame" x="136.66666666666669" y="556.66666666666663" width="140.66666666666669" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="MeTour" translatesAutoresizingMaskIntoConstraints="NO" id="Ojs-dk-NUl">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -273,7 +267,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="MeScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="bfv-Tz-jHX">
-                                <rect key="frame" x="16" y="64" width="343" height="514.66666666666663"/>
+                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="496.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -300,30 +294,30 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide8" id="947-2S-ZRb" customClass="FinalTourSlideViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ifh-YL-a9N">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="That's it! We hope you enjoy My Warwick. Touch 'Finish' when you're done with this tour.  " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSb-Ll-DbZ">
-                                <rect key="frame" x="16" y="607.66666666666663" width="343" height="64.333333333333371"/>
+                                <rect key="frame" x="16" y="587.66666666666663" width="382" height="42.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="My Warwick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AOD-dB-YKJ">
-                                <rect key="frame" x="119" y="566.33333333333337" width="136" height="31.333333333333371"/>
+                                <rect key="frame" x="119" y="546.33333333333337" width="175" height="31.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="AppIconLarge" translatesAutoresizingMaskIntoConstraints="NO" id="B4e-4P-aOg">
-                                <rect key="frame" x="40" y="104" width="295" height="295"/>
+                                <rect key="frame" x="40" y="80" width="334" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="295" id="6eH-9e-5kK"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="295" id="Jfu-v0-poI"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="du8-Mn-6HB">
-                                <rect key="frame" x="16" y="682" width="343" height="36"/>
+                                <rect key="frame" x="16" y="640" width="382" height="36"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
@@ -359,18 +353,18 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide3" id="obP-NP-trs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qQ9-Sr-f6k">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNR-Ql-1RX">
-                                <rect key="frame" x="16" y="629.66666666666663" width="343" height="108.33333333333337"/>
+                                <rect key="frame" x="20" y="587.66666666666663" width="374" height="108.33333333333337"/>
                                 <string key="text">Just-in-time reminders like Submit your coursework or Return your library books. Alerts pop up on your phone's lock screen like messages, with a history on this screen in the app</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-Sf-g2a">
-                                <rect key="frame" x="141.66666666666666" y="576.66666666666663" width="91.666666666666657" height="33"/>
+                                <rect key="frame" x="161.33333333333334" y="534.66666666666663" width="91.666666666666657" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="NotificationsTour" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-Q6-j70">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -384,7 +378,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="NotificationsScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="7hK-g4-4Qc">
-                                <rect key="frame" x="16" y="64.000000000000028" width="343" height="492.66666666666674"/>
+                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="474.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -411,17 +405,17 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide4" id="jgf-zG-jJJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hbd-qP-14h">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A summary of tasks that you've completed, like submitting your assignment or filling in a form." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEt-58-Q8d">
-                                <rect key="frame" x="16" y="673.66666666666663" width="343" height="64.333333333333371"/>
+                                <rect key="frame" x="20" y="653.66666666666663" width="374" height="42.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="U77-ey-AAf">
-                                <rect key="frame" x="134.66666666666666" y="620.66666666666663" width="106" height="33"/>
+                                <rect key="frame" x="154" y="600.66666666666663" width="106" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ActivityTour" translatesAutoresizingMaskIntoConstraints="NO" id="x2D-a5-G40">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -435,7 +429,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="ActivityScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="wRr-ow-itH">
-                                <rect key="frame" x="16" y="64" width="343" height="536.66666666666663"/>
+                                <rect key="frame" x="20" y="40" width="374" height="540.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -462,17 +456,17 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide5" id="uZJ-Bu-vZw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qwy-fp-5Iy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A personalised list of news items. You can select which categories of news you'd like to see." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29s-HB-KsV">
-                                <rect key="frame" x="16" y="673.66666666666663" width="343" height="64.333333333333371"/>
+                                <rect key="frame" x="20" y="653.66666666666663" width="374" height="42.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-2z-9mK">
-                                <rect key="frame" x="142.33333333333334" y="620.66666666666663" width="90.333333333333343" height="33"/>
+                                <rect key="frame" x="162" y="600.66666666666663" width="90.333333333333314" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="NewsTour" translatesAutoresizingMaskIntoConstraints="NO" id="kNd-9L-PXz">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -486,7 +480,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="NewsScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="Tf1-TM-j5p">
-                                <rect key="frame" x="16" y="64" width="343" height="536.66666666666663"/>
+                                <rect key="frame" x="20" y="40" width="374" height="540.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -513,17 +507,17 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide6" id="IYi-gI-6Im" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ykR-xV-GKJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find web pages, see buildings and rooms on the campus map, get peoples' contact details, search the Library catalogue and more." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxm-n0-g16">
-                                <rect key="frame" x="16" y="651.66666666666663" width="343" height="86.333333333333371"/>
+                                <rect key="frame" x="20" y="631.66666666666663" width="374" height="64.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-ep-m0W">
-                                <rect key="frame" x="136.66666666666666" y="598.66666666666663" width="102" height="33"/>
+                                <rect key="frame" x="156" y="578.66666666666663" width="102" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="SearchTour" translatesAutoresizingMaskIntoConstraints="NO" id="bi4-RH-Lal">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -537,7 +531,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="SearchScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="R1N-Yg-nD7">
-                                <rect key="frame" x="16" y="64" width="343" height="514.66666666666663"/>
+                                <rect key="frame" x="20" y="40" width="374" height="518.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -564,18 +558,18 @@
             <objects>
                 <viewController storyboardIdentifier="TourSlide7" id="Ad3-pc-Uap" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wvo-cd-gRd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7D-mu-Jcr">
-                                <rect key="frame" x="16" y="651.66666666666663" width="343" height="86.333333333333371"/>
+                                <rect key="frame" x="20" y="609.66666666666663" width="374" height="86.333333333333371"/>
                                 <string key="text">At any time, if you have any problems using the app, or you have an idea you'd like to tell us, touch the feedback button to send us a message.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-Ew-pjJ">
-                                <rect key="frame" x="124.33333333333331" y="598.66666666666663" width="126.66666666666669" height="33"/>
+                                <rect key="frame" x="143.66666666666666" y="556.66666666666663" width="126.66666666666666" height="33"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="FeedbackTour" translatesAutoresizingMaskIntoConstraints="NO" id="7HE-zb-TQu">
                                         <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
@@ -589,7 +583,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="FeedbackScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="7Nz-JA-95F">
-                                <rect key="frame" x="16" y="64" width="343" height="514.66666666666663"/>
+                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="496.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

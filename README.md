@@ -16,6 +16,6 @@ Architecture
 
 My Warwick is a web application written with React on the frontend, and Scala/Play on the backend. The mobile apps are primarily thin wrappers around the web application, with some added native functionality.
 
-The iOS app is no exception. Components such as the timetable alarms, notifications, a tour and colour schemes are implemented natively. We currently use Swift 3.
+The iOS app is no exception. Components such as the timetable alarms, notifications, a tour and colour schemes are implemented natively. We currently use Swift 4.2.
 
 We have an [app store listing](https://itunes.apple.com/gb/app/my-warwick/id1162088811?mt=8).
