@@ -140,7 +140,7 @@ class ViewController: UIViewController, UITabBarDelegate, WKNavigationDelegate, 
     let brandColour3 = UIColor(hue: 180.0 / 360.0, saturation: 63.0 / 100.0, brightness: 53.0 / 100.0, alpha: 1)
     let brandColour4 = UIColor(hue: 200.0 / 360.0, saturation: 65.0 / 100.0, brightness: 53.0 / 100.0, alpha: 1)
     let brandColour5 = UIColor(hue: 14.0 / 360.0, saturation: 66.0 / 100.0, brightness: 64.0 / 100.0, alpha: 1)
-    let brandColour6 = UIColor(red:0.07, green:0.34, blue:0.50, alpha:1.0)
+    let brandColour6 = UIColor(red:0.32, green:0.39, blue:0.46, alpha:1.0)
     let brandColour7 = UIColor(red:0.35, green:0.48, blue:0.34, alpha:1.0)
     let brandColour8 = UIColor(red:0.22, green:0.22, blue:0.22, alpha:1.0)
     
