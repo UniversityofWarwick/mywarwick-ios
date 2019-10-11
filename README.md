@@ -29,4 +29,4 @@ BrowserStack provides instant access to 2000+ browsers and real iOS and Android 
 
 This project has been tested for cross-device support using access provided by BrowserStack's open source programme.
 
-This project uses BrowserStack for testing the My Warwick Android app on a wide range of Android devices.
+This project uses BrowserStack for testing the My Warwick Android app on a wide range of iOS devices.
