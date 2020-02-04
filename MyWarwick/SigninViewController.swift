@@ -24,7 +24,7 @@ class SigninViewController: WebViewController {
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         if let url = navigationAction.request.url {
             // sign in
-            if url.host == Config.webSignOnURL.host && url.path == "/origin/hs" {
+            if url.host == Config.webSignOnURL.host {
                 decisionHandler(.allow)
                 return
             }
