@@ -19,3 +19,14 @@ My Warwick is a web application written with React on the frontend, and Scala/Pl
 The iOS app is no exception. Components such as the timetable alarms, notifications, a tour and colour schemes are implemented natively. We currently use Swift 4.2.
 
 We have an [app store listing](https://itunes.apple.com/gb/app/my-warwick/id1162088811?mt=8).
+
+BrowserStack
+------------
+
+<a href="https://www.browserstack.com"><img alt="Browserstack logo" src="browserstack.svg" width=200></a>
+
+BrowserStack provides instant access to 2000+ browsers and real iOS and Android devices for cross browser/device testing.
+
+This project has been tested for cross-device support using access provided by BrowserStack's open source programme.
+
+This project uses BrowserStack for testing the My Warwick Android app on a wide range of iOS devices.
