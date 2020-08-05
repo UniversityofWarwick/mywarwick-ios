@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4dZ-fE-UYo">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4dZ-fE-UYo">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,16 +11,16 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wJ5-Ve-jhj">
-                                <rect key="frame" x="0.0" y="20" width="414" height="666"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWW-yM-le3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bah-MO-y8k">
@@ -99,20 +97,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKe-di-OTy">
-                                <rect key="frame" x="16" y="567.66666666666663" width="382" height="108.33333333333337"/>
+                                <rect key="frame" x="16" y="655.66666666666663" width="1625" height="20.333333333333371"/>
                                 <string key="text">My Warwick is your window into lots of different activities at Warwick. Here you can get coursework reminders, see traffic alerts, use our interactive map, search for people, web pages and much more. Take a tour...</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Welcome to My Warwick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-qS-fjF">
-                                <rect key="frame" x="50" y="526.33333333333337" width="313.33333333333331" height="31.333333333333371"/>
+                                <rect key="frame" x="50" y="612" width="1556.3333333333333" height="33.666666666666629"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="AppIconLarge" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-OJ-ibq">
-                                <rect key="frame" x="40" y="80" width="334" height="295"/>
+                                <rect key="frame" x="40" y="60" width="1577" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="295" id="8qM-mc-JyG"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="295" id="uLr-wW-zVd"/>
@@ -163,7 +161,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" text="My Warwick needs to download additional content before it can be used offline. Please connect to the Internet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MN-0c-TX9">
-                                <rect key="frame" x="40" y="357.66666666666669" width="334" height="59.666666666666686"/>
+                                <rect key="frame" x="40" y="360" width="334" height="59.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="9jM-ES-5o2"/>
                                 </constraints>
@@ -172,7 +170,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cannot Connect to My Warwick" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEn-EK-LYJ">
-                                <rect key="frame" x="60" y="286.33333333333331" width="294" height="63.333333333333314"/>
+                                <rect key="frame" x="60" y="284.33333333333331" width="294" height="67.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="pdM-Zm-PX5"/>
                                 </constraints>
@@ -253,13 +251,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vqa-4K-Vj7">
-                                <rect key="frame" x="136.66666666666669" y="556.66666666666663" width="140.66666666666669" height="33"/>
+                                <rect key="frame" x="132" y="556.33333333333337" width="150.33333333333337" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="MeTour" translatesAutoresizingMaskIntoConstraints="NO" id="Ojs-dk-NUl">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'Me' screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izy-Sz-aFT">
-                                        <rect key="frame" x="41.000000000000007" y="0.0" width="99.666666666666686" height="33"/>
+                                        <rect key="frame" x="41.333333333333343" y="0.0" width="109" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -267,7 +265,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="MeScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="bfv-Tz-jHX">
-                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="496.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="516.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -298,26 +296,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="That's it! We hope you enjoy My Warwick. Touch 'Finish' when you're done with this tour.  " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSb-Ll-DbZ">
-                                <rect key="frame" x="16" y="587.66666666666663" width="382" height="42.333333333333371"/>
+                                <rect key="frame" x="16" y="584.66666666666663" width="382" height="42.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="My Warwick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AOD-dB-YKJ">
-                                <rect key="frame" x="119" y="546.33333333333337" width="175" height="31.333333333333371"/>
+                                <rect key="frame" x="119" y="541" width="175" height="33.666666666666629"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="AppIconLarge" translatesAutoresizingMaskIntoConstraints="NO" id="B4e-4P-aOg">
-                                <rect key="frame" x="40" y="80" width="334" height="295"/>
+                                <rect key="frame" x="40" y="60" width="334" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="295" id="6eH-9e-5kK"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="295" id="Jfu-v0-poI"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="du8-Mn-6HB">
-                                <rect key="frame" x="16" y="640" width="382" height="36"/>
+                                <rect key="frame" x="16" y="637" width="382" height="39"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
@@ -364,13 +362,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-Sf-g2a">
-                                <rect key="frame" x="161.33333333333334" y="534.66666666666663" width="91.666666666666657" height="33"/>
+                                <rect key="frame" x="158.33333333333334" y="534.33333333333337" width="97.333333333333343" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="NotificationsTour" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-Q6-j70">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alerts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUz-at-N1v">
-                                        <rect key="frame" x="41" y="0.0" width="50.666666666666657" height="33"/>
+                                        <rect key="frame" x="41.333333333333314" y="0.0" width="56" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -378,7 +376,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="NotificationsScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="7hK-g4-4Qc">
-                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="474.66666666666674"/>
+                                <rect key="frame" x="20" y="19.999999999999972" width="374" height="494.33333333333326"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -415,13 +413,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="U77-ey-AAf">
-                                <rect key="frame" x="154" y="600.66666666666663" width="106" height="33"/>
+                                <rect key="frame" x="151" y="600.33333333333337" width="112.33333333333331" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ActivityTour" translatesAutoresizingMaskIntoConstraints="NO" id="x2D-a5-G40">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyx-ii-RFf">
-                                        <rect key="frame" x="41" y="0.0" width="65" height="33"/>
+                                        <rect key="frame" x="41.333333333333343" y="0.0" width="71" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -429,7 +427,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="ActivityScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="wRr-ow-itH">
-                                <rect key="frame" x="20" y="40" width="374" height="540.66666666666663"/>
+                                <rect key="frame" x="20" y="20" width="374" height="560.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -466,13 +464,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-2z-9mK">
-                                <rect key="frame" x="162" y="600.66666666666663" width="90.333333333333314" height="33"/>
+                                <rect key="frame" x="159.33333333333334" y="600.33333333333337" width="95.666666666666657" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="NewsTour" translatesAutoresizingMaskIntoConstraints="NO" id="kNd-9L-PXz">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0s-oZ-y2z">
-                                        <rect key="frame" x="41" y="0.0" width="49.333333333333343" height="33"/>
+                                        <rect key="frame" x="41.333333333333314" y="0.0" width="54.333333333333343" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -480,7 +478,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="NewsScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="Tf1-TM-j5p">
-                                <rect key="frame" x="20" y="40" width="374" height="540.66666666666663"/>
+                                <rect key="frame" x="20" y="20" width="374" height="560.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -517,13 +515,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-ep-m0W">
-                                <rect key="frame" x="156" y="578.66666666666663" width="102" height="33"/>
+                                <rect key="frame" x="153" y="578.33333333333337" width="108" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="SearchTour" translatesAutoresizingMaskIntoConstraints="NO" id="bi4-RH-Lal">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiX-j4-hhH">
-                                        <rect key="frame" x="41" y="0.0" width="61" height="33"/>
+                                        <rect key="frame" x="41.33333333333335" y="0.0" width="66.666666666666686" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -531,7 +529,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="SearchScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="R1N-Yg-nD7">
-                                <rect key="frame" x="20" y="40" width="374" height="518.66666666666663"/>
+                                <rect key="frame" x="20" y="20" width="374" height="538.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -569,13 +567,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-Ew-pjJ">
-                                <rect key="frame" x="143.66666666666666" y="556.66666666666663" width="126.66666666666666" height="33"/>
+                                <rect key="frame" x="139.66666666666666" y="556.33333333333337" width="134.99999999999997" height="33.333333333333371"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="FeedbackTour" translatesAutoresizingMaskIntoConstraints="NO" id="7HE-zb-TQu">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="33.333333333333336" height="33.333333333333336"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66o-Ct-cgx">
-                                        <rect key="frame" x="41.000000000000007" y="0.0" width="85.666666666666686" height="33"/>
+                                        <rect key="frame" x="41.33333333333335" y="0.0" width="93.666666666666686" height="33.333333333333336"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -583,7 +581,7 @@
                                 </subviews>
                             </stackView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="FeedbackScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="7Nz-JA-95F">
-                                <rect key="frame" x="20" y="40.000000000000028" width="374" height="496.66666666666674"/>
+                                <rect key="frame" x="20" y="20" width="374" height="516.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -609,26 +607,26 @@
     <resources>
         <image name="Activity" width="25" height="25"/>
         <image name="Activity Selected" width="25" height="25"/>
-        <image name="ActivityScreenshot" width="250" height="444"/>
-        <image name="ActivityTour" width="33" height="33"/>
+        <image name="ActivityScreenshot" width="250" height="444.66665649414062"/>
+        <image name="ActivityTour" width="33.333332061767578" height="33.333332061767578"/>
         <image name="AppIconLarge" width="512" height="512"/>
-        <image name="FeedbackScreenshot" width="250" height="444"/>
-        <image name="FeedbackTour" width="33" height="33"/>
+        <image name="FeedbackScreenshot" width="250" height="444.66665649414062"/>
+        <image name="FeedbackTour" width="33.333332061767578" height="33.333332061767578"/>
         <image name="Me" width="25" height="25"/>
         <image name="Me Selected" width="25" height="25"/>
-        <image name="MeScreenshot" width="250" height="444"/>
-        <image name="MeTour" width="33" height="33"/>
+        <image name="MeScreenshot" width="250" height="444.66665649414062"/>
+        <image name="MeTour" width="33.333332061767578" height="33.333332061767578"/>
         <image name="News" width="25" height="25"/>
         <image name="News Selected" width="25" height="25"/>
-        <image name="NewsScreenshot" width="250" height="444"/>
-        <image name="NewsTour" width="33" height="33"/>
+        <image name="NewsScreenshot" width="250" height="444.66665649414062"/>
+        <image name="NewsTour" width="33.333332061767578" height="33.333332061767578"/>
         <image name="Notifications" width="25" height="25"/>
         <image name="Notifications Selected" width="25" height="25"/>
-        <image name="NotificationsScreenshot" width="250" height="444"/>
-        <image name="NotificationsTour" width="33" height="33"/>
+        <image name="NotificationsScreenshot" width="250" height="444.66665649414062"/>
+        <image name="NotificationsTour" width="33.333332061767578" height="33.333332061767578"/>
         <image name="Search" width="25" height="25"/>
         <image name="Search Selected" width="25" height="25"/>
-        <image name="SearchScreenshot" width="250" height="444"/>
-        <image name="SearchTour" width="33" height="33"/>
+        <image name="SearchScreenshot" width="250" height="444.66665649414062"/>
+        <image name="SearchTour" width="33.333332061767578" height="33.333332061767578"/>
     </resources>
 </document>
