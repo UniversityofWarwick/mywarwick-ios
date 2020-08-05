@@ -68,7 +68,7 @@
         <!--Initial View Controller-->
         <scene sceneID="LVe-f5-bg1">
             <objects>
-                <viewController id="4dZ-fE-UYo" customClass="InitialViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="4dZ-fE-UYo" customClass="InitialViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A7b-j5-URz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
         <!--Tour View Controller-->
         <scene sceneID="oMv-iU-Eey">
             <objects>
-                <pageViewController storyboardIdentifier="TourViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="LyD-rz-TVY" customClass="TourViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="TourViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="fullScreen" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="LyD-rz-TVY" customClass="TourViewController" customModule="MyWarwick" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLo-1V-aBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-146" y="856"/>
@@ -97,20 +97,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKe-di-OTy">
-                                <rect key="frame" x="16" y="655.66666666666663" width="1625" height="20.333333333333371"/>
+                                <rect key="frame" x="16" y="567.66666666666663" width="382" height="108.33333333333337"/>
                                 <string key="text">My Warwick is your window into lots of different activities at Warwick. Here you can get coursework reminders, see traffic alerts, use our interactive map, search for people, web pages and much more. Take a tour...</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Welcome to My Warwick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-qS-fjF">
-                                <rect key="frame" x="50" y="612" width="1556.3333333333333" height="33.666666666666629"/>
+                                <rect key="frame" x="50" y="524" width="313.33333333333331" height="33.666666666666629"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.18823529410000001" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="AppIconLarge" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-OJ-ibq">
-                                <rect key="frame" x="40" y="60" width="1577" height="295"/>
+                                <rect key="frame" x="40" y="60" width="334" height="295"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="295" id="8qM-mc-JyG"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="295" id="uLr-wW-zVd"/>
@@ -155,7 +155,7 @@
         <!--View Controller-->
         <scene sceneID="W1M-G8-Lsc">
             <objects>
-                <viewController storyboardIdentifier="CannotConnect" id="xf1-Ge-Lpr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CannotConnect" modalPresentationStyle="fullScreen" id="xf1-Ge-Lpr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ka5-WQ-n7N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
