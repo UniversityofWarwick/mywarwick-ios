@@ -22,8 +22,9 @@ class InitialViewController: UIViewController {
     func finishTour() {
         UserDefaults.standard.set(true, forKey: "TourComplete")
         firstRunAfterTour = true
-
         dismiss(animated: true)
+        let viewController = storyboard!.instantiateViewController(withIdentifier: "MainViewController")
+        present(viewController, animated: false, completion: nil)
     }
 
 }
