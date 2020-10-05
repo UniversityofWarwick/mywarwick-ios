@@ -7,6 +7,6 @@ target 'MyWarwick' do
 
   # Pods for MyWarwick
   pod 'Firebase/RemoteConfig'
-  pod 'Fabric'
-  pod 'Crashlytics'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
 end
