@@ -13,7 +13,7 @@
 	<key>ANDROID_CLIENT_ID</key>
 	<string>616379085582-bnqdu76qhtqs9ov7jmh8bhg5ajubq1oc.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA89M4WRKoRXWRr81y4T6wqMCC9ABV0YKI</string>
+	<string>AIzaSyBqR7YDlIjNa1dEefjw50dVf-gCx-zPo9o</string>
 	<key>GCM_SENDER_ID</key>
 	<string>616379085582</string>
 	<key>PLIST_VERSION</key>
@@ -25,15 +25,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>start-1184.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:616379085582:ios:9b46a1b85098eb1d</string>
 	<key>DATABASE_URL</key>
