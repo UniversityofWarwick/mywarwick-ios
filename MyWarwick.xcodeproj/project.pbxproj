@@ -132,7 +132,6 @@
 				6D7A7028A3FEB087D2B4515E /* Pods-MyWarwick.debug.xcconfig */,
 				55204D11F9609E07CF2D718E /* Pods-MyWarwick.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -297,6 +296,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
