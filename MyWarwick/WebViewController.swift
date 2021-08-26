@@ -39,6 +39,7 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         dismissNotifyingDelegate()
     }
 
+    @objc
     func dismissNotifyingDelegate() {
         dismiss(animated: true) {
             self.delegate?.didDismissWebView(sender: self)
