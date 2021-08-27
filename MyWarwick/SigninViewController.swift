@@ -28,6 +28,11 @@ class SigninViewController: WebViewController {
                 decisionHandler(.allow)
                 return
             }
+            
+            if url.host == Config.msLoginHost.host {
+                decisionHandler(.allow)
+                return
+            }
 
             // go to my warwick
             if url.host == Config.appURL.host && url.path == "/sso/acs" {

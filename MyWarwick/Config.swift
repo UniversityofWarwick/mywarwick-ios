@@ -5,6 +5,8 @@ class Config {
     static let defaultAppURL = URL(string: "https://my.warwick.ac.uk")!
 
     static let webSignOnURL = URL(string: "https://websignon.warwick.ac.uk")!
+    
+    static let msLoginHost = URL(string: "https://login.microsoftonline.com")!
 
     static var shortVersionString: String = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
     static var bundleVersion: String = Bundle.main.infoDictionary?["CFBundleVersion"] as! String
